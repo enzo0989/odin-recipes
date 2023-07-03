@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+}
+
+:root {
+  --lightblue: rgb(00, 100, 255);
+  --sun: rgba(218, 165, 32, 0.6);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  width: 90%;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  margin: 10px;
+  width: 100%;
+  border-bottom: 1px solid var(--lightblue);
+}
+
+.header-sub {
+  font-style: italic;
+  border-bottom: 1px solid var(--sun);
+  border-top: 1px solid var(--sun);
+  padding: 20px;
+}
+
+.main {
+  margin: 30px auto;
+}
+.recipes-list {
+  margin: 25px 0;
+  border: 3px dashed var(--lightblue);
+}
+
+.recipes-item {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* list Styles */ 
+a {
+  text-decoration: none;
+  color: var(--lightblue);
+}
+
+a:hover {
+  color: var(--sun);
+}
+
+ul > li {
+  list-style: none;
+}
+
+
+.ing-list > li {
+    list-style:square;
+}
+
+.ing-list, .steps-list {
+    margin-left: 25px;
+    padding: 10px;
+}
+
+.steps {
+  border-bottom: 1px solid var(--lightblue);
+}
+
+.steps-item {
+  padding: 8px;
+}
+
+.steps-p {
+    padding: 10px;
+    font-style: italic;
+}
+/* styles for other elements */
+
+img {
+  padding: 10px;
+  display: block;
+  margin: auto;
+}
+
+p, li {
+    line-height: 1.4;
+}
+
